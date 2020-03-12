@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author DELL-i3
+ * @author Nikos Sageorgis
  */
 import java.util.Locale;
 public class ClassExercise1 {
