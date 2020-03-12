@@ -114,7 +114,6 @@ public class ClassExercise1 {
         int sum=0;
         int temp =myAge;
         String [] array = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
-        //System.out.println("myage to date: " + myAge);
         while (temp > 0) {
             myAge = myAge % 10;
             sum+=myAge;
