@@ -1,22 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package classexercise1;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Nikos Sageorgis
- */
+ //@author Nikos Sageorgis
+ 
 import java.util.Locale;
 public class ClassExercise1 {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner input = new Scanner(System.in);
@@ -25,13 +15,13 @@ public class ClassExercise1 {
         String myName = input.next();
         System.out.println("What's your gender?");
         String myGender = input.next();
-        int myAge = ageValidation(input);//put a condition for negative number or >40 to stop the program
+        int myAge = ageValidation(input);
         if(myAge==0){
             System.exit(0);
         }
         favoriteSeason(input);
         weightHeight(input);
-        String luckyD = luckyDay(myAge);//if you haven't Wednesday as lucky day, stop the program 
+        String luckyD = luckyDay(myAge); 
         clubVisit(luckyD, myName, myAge, myGender);
     }
     
