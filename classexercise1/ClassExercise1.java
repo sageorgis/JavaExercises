@@ -42,7 +42,6 @@ public class ClassExercise1 {
             System.out.println("Keep up... "+ temp + " more years left and afterwards you will make money");
             temp = myAge + 20;
             System.out.println("You weren't borned in 1980 but in 2040 you will be " + temp + " years old");
-            return myAge;
         }else if (myAge>=19 && myAge<=40){
             System.out.print("Well, you must be employed. ");
             temp = myAge - 18;
@@ -53,7 +52,6 @@ public class ClassExercise1 {
             }else{
                 System.out.println("You borned in 1980 and in 2040 you will be " + temp + " years old");
             }
-            //return myAge;
         }else if(myAge>40){
             temp = myAge + 20;
             System.out.println("In 1980 you were " + (myAge - 40) + " years old and in 2040 you will be " + temp + " years old");
@@ -92,12 +90,9 @@ public class ClassExercise1 {
         double bmi;
         System.out.print("Enter your weight: ");
         weight = input.nextInt();
-        //System.out.println();
         System.out.print("Enter your height: ");
         height = input.nextDouble();
-        //System.out.println(bmi);
         bmi = weight/(height*height);
-        //System.out.println(bmi);
         if (bmi<18.5){
             System.out.println("You are undreweight.");
         }else if (bmi>=18.5 && bmi<=24.9){
@@ -120,7 +115,6 @@ public class ClassExercise1 {
             temp = temp / 10;
             myAge = temp;
         }
-        //System.out.println("sumofmyage to date for check purpose only: " + sum);
         if (sum>6){
             System.out.println("Your lucky day is " + array[sum%7]);
             return array[sum%7];
