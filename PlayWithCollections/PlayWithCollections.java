@@ -34,7 +34,7 @@ public class PlayWithCollections {
         System.out.println("Play With TreeSet");
         playWithTreeSet(s1,  s2,  s3);
         System.out.println("List contains results");
-        ListContains( s1,  s2);
+        listContains( s1,  s2);
         System.out.println("Play With HashSet");
         playWithLinkedHashSet( s1,  s2,  s3);
         System.out.println("Play With Sets");
