@@ -30,9 +30,9 @@ public class PlayWithCollections {
         System.out.println("Play With Lists");
         playWithLists();
         System.out.println("Play With Maps");
-        PlayWithMaps();
+        playWithMaps();
         System.out.println("Play With TreeSet");
-        PlayWithTreeSet(s1,  s2,  s3);
+        playWithTreeSet(s1,  s2,  s3);
         System.out.println("List contains results");
         ListContains( s1,  s2);
         System.out.println("Play With HashSet");
@@ -42,7 +42,7 @@ public class PlayWithCollections {
         
     }
     
-    public static void PlayWithIterators(){
+    public static void playWithIterators(){
         Set<String> names = new HashSet();
         names.add("Nick");
         names.add("Jack");
@@ -71,7 +71,7 @@ public class PlayWithCollections {
     }
     
     
-    public static void PlayWithMaps(){
+    public static void playWithMaps(){
         System.out.println("\n****Playing with Maps*****");
         Map<String, Integer> map = new HashMap();
         map.put("Nick", 80);
@@ -103,7 +103,7 @@ public class PlayWithCollections {
         }
 
     }
-    public static void PlayWithTreeSet(Student s1, Student s2, Student s3){
+    public static void playWithTreeSet(Student s1, Student s2, Student s3){
             Set<String> treeSet = new TreeSet();
             treeSet.add("Nick");
             treeSet.add("Mary");
@@ -137,7 +137,7 @@ public class PlayWithCollections {
 
     }
     
-    public static void ListContains(Student s1, Student s2){
+    public static void listContains(Student s1, Student s2){
             List<Student> list = new ArrayList();
             list.add(s1);
             list.add(s2);
